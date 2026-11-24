@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Repair Assignment</title>
+  </head>
+  <body>
+    <header>
+      <h1>Learning Community</h1>
+      <button type="button" onclick="login()">Login</button>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Us</h2>
+        <p>
+          We help students build practical web skills and review their code step
+          by step.
+        </p>
+        <img
+          src="team.jpg"
+          alt="Team members working together around a laptop"
+        />
+      </section>
+
+      <section>
+        <h2>Services</h2>
+        <p>See what learning tracks and support sessions are available.</p>
+        <a href="/services">View available services</a>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <form action="/contact" method="post">
+          <div>
+            <label for="user-name">Name</label>
+            <input type="text" id="user-name" name="name" required />
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Learning Community</p>
+    </footer>
+  </body>
+</html>
